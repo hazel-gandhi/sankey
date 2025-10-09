@@ -1,9 +1,9 @@
-// Select the tooltip element
+
 const tooltip = d3.select(".tooltip");
 
 console.log("Script loaded, tooltip:", tooltip);
 
-// Function to add interactivity to an artboard
+
 function addInteractivity(artboardId, svgFileName) {
   console.log(`Loading ${svgFileName} into ${artboardId}...`);
   
@@ -12,10 +12,10 @@ function addInteractivity(artboardId, svgFileName) {
     
     const artboard = document.getElementById(artboardId);
     
-    // --- MINIMAL CHANGE: insert SVG BEFORE PNG so it is in front ---
+    
     const png = artboard.querySelector('img.g-aiImg');
     if (png && png.parentNode === artboard) {
-        artboard.insertBefore(xml.documentElement, png); // <-- only this line changed
+        artboard.insertBefore(xml.documentElement, png); 
     } else {
         artboard.appendChild(xml.documentElement);
     }
@@ -27,7 +27,7 @@ function addInteractivity(artboardId, svgFileName) {
     
     console.log(`SVG inserted into ${artboardId}`, svg.node());
 
-    // Log all elements with IDs in the SVG
+    // log IDs and svg
     const allIds = [];
     svg.selectAll("[id]").each(function() {
       allIds.push(this.id);
@@ -46,10 +46,10 @@ function addInteractivity(artboardId, svgFileName) {
         const selectorSource = d.SatState.trim().replace(/\s+/g, "_");
         const selectorTarget = d.LVState.trim().replace(/\s+/g, "_");
 
-        // Simple format: UK_US (no encoding)
+        
         const encodedLinkId = `${selectorSource}_${selectorTarget}`;
 
-        // matching with illustrator
+        
         const link = svg.select(`#${encodedLinkId}`);
         if (!link.empty()) {
           matchCount++;
@@ -81,7 +81,7 @@ function addInteractivity(artboardId, svgFileName) {
           console.log(`✗ No match for: ${encodedLinkId}`);
         }
 
-        // Optional: attach to node rects
+        
         const node = svg.select(`#${selectorSource}`);
         if (!node.empty()) {
           matchCount++;
@@ -119,6 +119,6 @@ function addInteractivity(artboardId, svgFileName) {
   });
 }
 
-// Add interactivity to both artboards
+// make it interactive
 addInteractivity('g-template-full', 'viz-full.svg');
 addInteractivity('g-template-mobile', 'viz-mobile.svg');
