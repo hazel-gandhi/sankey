@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sankey Chart with Interactivity</title>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <style>
+    @font-face {
+      font-family: 'Moderat-Regular';
+      src: url('Moderat-Regular.woff2') format('woff2'),
+           url('Moderat-Regular.woff') format('woff'),
+           url('Moderat-Regular.otf') format('opentype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      font-family: sans-serif;
+      background: #fafafa;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Tooltip styles */
+    .tooltip {
+      position: absolute;
+      background: #fff;
+      border: 1px solid #aaa;
+      padding: 6px 10px;
+      border-radius: 4px;
+      pointer-events: none;
+      font-size: 13px;
+      font-family: 'Moderat-Regular', sans-serif;
+      color: #333;
+      box-shadow: 0 0 4px rgba(0,0,0,0.2);
+      opacity: 0;
+      transition: opacity 0.2s;
+      z-index: 1000;
+    }
+
+    /* Responsive container styles from template */
+    #g-template-box {
+      container-type: inline-size;
+      container-name: g-template-box;
+    }
+    #g-template-box,
+    #g-template-box .g-artboard {
+      margin: 0 auto;
+    }
+    #g-template-box p {
+      margin: 0;
+    }
+    #g-template-box .g-aiAbs {
+      position: absolute;
+      pointer-events: none; /* ADDED - allows clicks through text */
+    }
+    #g-template-box .g-aiImg {
+      position: absolute;
+      top: 0;
+      display: block;
+      width: 100% !important;
+      pointer-events: none; /* ADDED - allows clicks through PNG */
+    }
+    #g-template-box .g-aiSymbol {
+      position: absolute;
+      box-sizing: border-box;
+    }
+    #g-template-box .g-aiPointText p {
+      white-space: nowrap;
+    }
+
+    /* Full artboard (desktop) */
+    #g-template-full {
+      position: relative;
+      overflow: hidden;
+      display: none;
+    }
+    @container g-template-box (width >= 700px) {
+      #g-template-full {
+        display: block;
+      }
+    }
+    #g-template-full p {
+      font-family: Moderat-Regular;
+      font-weight: regular;
+      line-height: 12px;
+      opacity: 1;
+      letter-spacing: 0em;
+      font-size: 10px;
+      text-align: left;
+      color: rgb(0,0,0);
+      text-transform: none;
+      padding-bottom: 0;
+      padding-top: 0;
+      mix-blend-mode: normal;
+      font-style: normal;
+      height: auto;
+      position: static;
+    }
+    #g-template-full .g-pstyle0 {
+      font-weight: 400;
+      line-height: 25px;
+      font-size: 21px;
+    }
+    #g-template-full .g-pstyle1 {
+      font-weight: 400;
+      line-height: 16px;
+      font-size: 13px;
+    }
+    #g-template-full .g-pstyle2 {
+      font-weight: 400;
+      line-height: 19px;
+      height: 19px;
+      font-size: 16px;
+    }
+    #g-template-full .g-pstyle3 {
+      font-weight: 400;
+      line-height: 17px;
+      height: 17px;
+      font-size: 14px;
+    }
+    #g-template-full .g-pstyle4 {
+      font-weight: 400;
+    }
+
+    /* Mobile artboard */
+    #g-template-mobile {
+      position: relative;
+      overflow: hidden;
+    }
+    @container g-template-box (width >= 700px) {
+      #g-template-mobile {
+        display: none;
+      }
+    }
+    #g-template-mobile p {
+      font-family: Moderat-Regular;
+      font-weight: regular;
+      line-height: 12px;
+      opacity: 1;
+      letter-spacing: 0em;
+      font-size: 10px;
+      text-align: left;
+      color: rgb(0,0,0);
+      text-transform: none;
+      padding-bottom: 0;
+      padding-top: 0;
+      mix-blend-mode: normal;
+      font-style: normal;
+      height: auto;
+      position: static;
+    }
+    #g-template-mobile .g-pstyle0 {
+      font-weight: 400;
+      line-height: 23px;
+      font-size: 19px;
+    }
+    #g-template-mobile .g-pstyle1 {
+      font-weight: 400;
+      line-height: 16px;
+      font-size: 13px;
+    }
+    #g-template-mobile .g-pstyle2 {
+      font-weight: 400;
+      line-height: 18px;
+      height: 18px;
+      font-size: 15px;
+    }
+    #g-template-mobile .g-pstyle3 {
+      font-weight: 400;
+      line-height: 14px;
+      height: 14px;
+      font-size: 12px;
+    }
+    #g-template-mobile .g-pstyle4 {
+      font-weight: 400;
+    }
+  </style>
+  <link rel="icon" href="data:,">
+</head>
+<body>
+
+  <!-- Tooltip -->
+  <div class="tooltip"></div>
+
+  <!-- Responsive container with both artboards -->
+  <div id="g-template-box" class="ai2html">
+    
+    <!-- Artboard: full (desktop) -->
+    <div id="g-template-full" class="g-artboard" style="width:700px; height:453px;" data-aspect-ratio="1.545" data-min-width="700">
+    
+      <img id="g-template-full-img" class="g-template-full-img g-aiImg" alt="" src="template-full.png"/>
+      <div id="g-ai0-1" class="g-text g-aiAbs" style="top:1.1038%;left:1.1004%;width:93.4286%;">
+        <p class="g-pstyle0">Top customers for US, China and Russia&rsquo;s space launch sites</p>
+      </div>
+      <div id="g-ai0-2" class="g-text g-aiAbs" style="top:7.064%;left:1.1011%;width:98.8571%;">
+        <p class="g-pstyle1">Since 1957, European countries have used launch sites in these three countries the most for their space missions</p>
+      </div>
+      <div id="g-ai0-3" class="g-text g-aiAbs g-aiPointText" style="top:14.9077%;margin-top:-10.5px;left:9.0595%;width:154px;">
+        <p class="g-pstyle2">Satellite owned by</p>
+      </div>
+      <div id="g-ai0-4" class="g-text g-aiAbs g-aiPointText" style="top:15.1284%;margin-top:-10.5px;left:71.0365%;width:145px;">
+        <p class="g-pstyle2">Launch site used</p>
+      </div>
+      <div id="g-ai0-5" class="g-text g-aiAbs g-aiPointText" style="top:19.2943%;margin-top:-9.4px;left:9.8857%;width:75px;">
+        <p class="g-pstyle3">Pakistan</p>
+      </div>
+      <div id="g-ai0-6" class="g-text g-aiAbs g-aiPointText" style="top:22.164%;margin-top:-9.4px;left:9.8857%;width:74px;">
+        <p class="g-pstyle3">Uruguay</p>
+      </div>
+      <div id="g-ai0-7" class="g-text g-aiAbs g-aiPointText" style="top:23.7092%;margin-top:-9.4px;left:81.3452%;width:58px;">
+        <p class="g-pstyle3">China</p>
+      </div>
+      <div id="g-ai0-8" class="g-text g-aiAbs g-aiPointText" style="top:26.3582%;margin-top:-9.4px;left:11.5458%;width:57px;">
+        <p class="g-pstyle3">Spain</p>
+      </div>
+      <div id="g-ai0-9" class="g-text g-aiAbs g-aiPointText" style="top:30.5526%;margin-top:-9.4px;left:8.3557%;width:79px;">
+        <p class="g-pstyle3">Germany</p>
+      </div>
+      <div id="g-ai0-10" class="g-text g-aiAbs g-aiPointText" style="top:36.292%;margin-top:-9.4px;left:12.7137%;width:49px;">
+        <p class="g-pstyle3">Italy</p>
+      </div>
+      <div id="g-ai0-11" class="g-text g-aiAbs g-aiPointText" style="top:38.4995%;margin-top:-9.4px;left:81.3452%;width:61px;">
+        <p class="g-pstyle3">Russia</p>
+      </div>
+      <div id="g-ai0-12" class="g-text g-aiAbs g-aiPointText" style="top:42.9145%;margin-top:-9.4px;left:9.7658%;width:70px;">
+        <p class="g-pstyle3">Canada</p>
+      </div>
+      <div id="g-ai0-13" class="g-text g-aiAbs g-aiPointText" style="top:51.7446%;margin-top:-9.4px;left:11.0857%;width:60px;">
+        <p class="g-pstyle3">Japan</p>
+      </div>
+      <div id="g-ai0-14" class="g-text g-aiAbs g-aiPointText" style="top:62.7821%;margin-top:-9.4px;left:13.8897%;width:41px;">
+        <p class="g-pstyle3">UK</p>
+      </div>
+      <div id="g-ai0-15" class="g-text g-aiAbs g-aiPointText" style="top:70.9499%;margin-top:-9.4px;left:81.3452%;width:40px;">
+        <p class="g-pstyle3">US</p>
+      </div>
+      <div id="g-ai0-16" class="g-text g-aiAbs g-aiPointText" style="top:82.4289%;margin-top:-9.4px;left:13.9957%;width:40px;">
+        <p class="g-pstyle3">US</p>
+      </div>
+      <div id="g-ai0-17" class="g-text g-aiAbs" style="top:92.7152%;left:1.0416%;width:93.5714%;">
+        <p class="g-pstyle4">Note: Does not include a country using its own launch sites for a launch, eg. US using launch sites in the US.</p>
+        <p class="g-pstyle4">Source: Jonathan McDowell&rsquo;s Space Report</p>
+      </div>
+    </div>
+
+    <!-- Artboard: mobile -->
+    <div id="g-template-mobile" class="g-artboard" style="max-width: 375px;max-height: 500px" data-aspect-ratio="0.75" data-min-width="0" data-max-width="699">
+      <div style="padding: 0 0 133.28% 0;"></div>
+      <img id="g-template-mobile-img" class="g-template-mobile-img g-aiImg" alt="" src="template-mobile.png"/>
+      <div id="g-ai1-1" class="g-mobile g-aiAbs" style="top:0.6002%;left:2.4513%;width:94.9333%;">
+        <p class="g-pstyle0">Top customers for US, China and Russia&rsquo;s space launch sites</p>
+      </div>
+      <div id="g-ai1-2" class="g-mobile g-aiAbs" style="top:9.6038%;left:2.2887%;width:94.9333%;">
+        <p class="g-pstyle1">Since 1957, European countries have used launch sites in these three countries the most for their space missions</p>
+      </div>
+      <div id="g-ai1-3" class="g-mobile g-aiAbs g-aiPointText" style="top:20.4017%;margin-top:-10px;left:2.7388%;width:145px;">
+        <p class="g-pstyle2">Satellite owned by</p>
+      </div>
+      <div id="g-ai1-4" class="g-mobile g-aiAbs g-aiPointText" style="top:20.4016%;margin-top:-10px;left:64.3%;width:137px;">
+        <p class="g-pstyle2">Launch site used</p>
+      </div>
+      <div id="g-ai1-5" class="g-mobile g-aiAbs g-aiPointText" style="top:26.7655%;margin-top:-7.8px;left:6.7628%;width:67px;">
+        <p class="g-pstyle3">Pakistan</p>
+      </div>
+      <div id="g-ai1-6" class="g-mobile g-aiAbs g-aiPointText" style="top:28.5662%;margin-top:-7.8px;left:83.8526%;width:53px;">
+        <p class="g-pstyle3">China</p>
+      </div>
+      <div id="g-ai1-7" class="g-mobile g-aiAbs g-aiPointText" style="top:29.5666%;margin-top:-7.8px;left:6.5539%;width:67px;">
+        <p class="g-pstyle3">Uruguay</p>
+      </div>
+      <div id="g-ai1-8" class="g-mobile g-aiAbs g-aiPointText" style="top:33.1681%;margin-top:-7.8px;left:10.3047%;width:52px;">
+        <p class="g-pstyle3">Spain</p>
+      </div>
+      <div id="g-ai1-9" class="g-mobile g-aiAbs g-aiPointText" style="top:37.97%;margin-top:-7.8px;left:5.15%;width:71px;">
+        <p class="g-pstyle3">Germany</p>
+      </div>
+      <div id="g-ai1-10" class="g-mobile g-aiAbs g-aiPointText" style="top:41.9716%;margin-top:-7.8px;left:83.8526%;width:56px;">
+        <p class="g-pstyle3">Russia</p>
+      </div>
+      <div id="g-ai1-11" class="g-mobile g-aiAbs g-aiPointText" style="top:42.1717%;margin-top:-7.8px;left:11.1516%;width:45px;">
+        <p class="g-pstyle3">Italy</p>
+      </div>
+      <div id="g-ai1-12" class="g-mobile g-aiAbs g-aiPointText" style="top:48.3741%;margin-top:-7.8px;left:6.4487%;width:63px;">
+        <p class="g-pstyle3">Canada</p>
+      </div>
+      <div id="g-ai1-13" class="g-mobile g-aiAbs g-aiPointText" style="top:54.7767%;margin-top:-7.8px;left:8.6458%;width:55px;">
+        <p class="g-pstyle3">Japan</p>
+      </div>
+      <div id="g-ai1-14" class="g-mobile g-aiAbs g-aiPointText" style="top:66.1813%;margin-top:-7.8px;left:13.3469%;width:38px;">
+        <p class="g-pstyle3">UK</p>
+      </div>
+      <div id="g-ai1-15" class="g-mobile g-aiAbs g-aiPointText" style="top:68.7823%;margin-top:-7.8px;left:84.1193%;width:37px;">
+        <p class="g-pstyle3">US</p>
+      </div>
+      <div id="g-ai1-16" class="g-mobile g-aiAbs g-aiPointText" style="top:82.988%;margin-top:-7.8px;left:13.2779%;width:37px;">
+        <p class="g-pstyle3">US</p>
+      </div>
+      <div id="g-ai1-17" class="g-mobile g-aiAbs" style="top:91.2365%;left:1.3552%;width:96.8%;">
+        <p class="g-pstyle4">Note: Does not include a country using its own launch sites for a launch, eg. US using launch sites in the US.</p>
+        <p class="g-pstyle4">Source: Jonathan McDowell&rsquo;s Space Report</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Load the D3 interaction script -->
+  <script src="sankey.js"></script>
+
+</body>
+</html>
