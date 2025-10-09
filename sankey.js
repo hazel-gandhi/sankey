@@ -12,12 +12,16 @@ function addInteractivity(artboardId, svgFileName) {
     
     const artboard = document.getElementById(artboardId);
     
-    // Insert the SVG as the FIRST child so it renders behind the PNG/text
-    artboard.insertBefore(xml.documentElement, artboard.firstChild);
+    // --- MINIMAL CHANGE: insert SVG BEFORE PNG so it is in front ---
+    const png = artboard.querySelector('img.g-aiImg');
+    if (png && png.parentNode === artboard) {
+        artboard.insertBefore(xml.documentElement, png); // <-- only this line changed
+    } else {
+        artboard.appendChild(xml.documentElement);
+    }
 
     const svg = d3.select(`#${artboardId} svg`);
     
-    // IMPORTANT: Remove any pointer-events blocking
     svg.style("pointer-events", "auto");
     
     console.log(`SVG inserted into ${artboardId}`, svg.node());
@@ -29,14 +33,14 @@ function addInteractivity(artboardId, svgFileName) {
     });
     console.log(`Found ${allIds.length} elements with IDs:`, allIds.slice(0, 10));
 
-    // Load the Sankey data
+    // sankey data
     console.log("Loading sankey.csv...");
     d3.csv("sankey.csv").then(data => {
       console.log(`✓ CSV loaded with ${data.length} rows`, data[0]);
 
       let matchCount = 0;
 
-      // Attach tooltips based on your node/link IDs
+      // tooltips
       data.forEach(d => {
         const selectorSource = d.SatState.trim().replace(/\s+/g, "_");
         const selectorTarget = d.LVState.trim().replace(/\s+/g, "_");
@@ -44,7 +48,7 @@ function addInteractivity(artboardId, svgFileName) {
         // Simple format: UK_US (no encoding)
         const encodedLinkId = `${selectorSource}_${selectorTarget}`;
 
-        // Try to match Illustrator flow lines
+        // matching with illustrator
         const link = svg.select(`#${encodedLinkId}`);
         if (!link.empty()) {
           matchCount++;
