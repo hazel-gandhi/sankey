@@ -21,6 +21,7 @@ function addInteractivity(artboardId, svgFileName) {
     }
 
     const svg = d3.select(`#${artboardId} svg`);
+
     
     svg.style("pointer-events", "auto");
     
