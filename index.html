@@ -5,17 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sankey Chart with Interactivity</title>
 
-  <script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="/wp-content/projects/vendor/d3/d3.v7.min.js"></script>
+  <link rel="stylesheet" href="https://restofworld.org/wp-content/themes/orbis/static-assets/external/fonts.css">
   
-
   <style>
     @font-face {
-      font-family: 'Moderat-Regular';
-      src: url('Moderat-Regular.ttf') format('truetype');
-      font-weight: normal;
-      font-style: normal;
-    }
+	font-family: "Moderat";
+	src: url("https://restofworld.org/wp-content/themes/orbis/assets/fonts/Moderat-Regular.woff2") format("woff2"), 
+	url("https://restofworld.org/wp-content/themes/orbis/assets/fonts/Moderat-Regular.woff") format("woff"), 
+	url("https://restofworld.org/wp-content/themes/orbis/assets/fonts/Moderat-Regular.eot?#iefix") format("embedded-opentype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap; }
+  
+@font-face {
+	font-family: "Moderat";
+	src: url("https://restofworld.org/wp-content/themes/orbis/assets/fonts/Moderat-Bold.woff2") format("woff2"), 
+	url("https://restofworld.org/wp-content/themes/orbis/assets/fonts/Moderat-Bold.woff") format("woff"), 
+	url("https://restofworld.org/wp-content/themes/orbis/assets/fonts/Moderat-Bold.eot?#iefix") format("embedded-opentype");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap; }
+  
+@font-face {
+	font-family: "Input Mono";
+	src: url("https://restofworld.org/wp-content/themes/orbis/assets/fonts/InputMono-Regular.woff2") format("woff2"), 
+	url("https://restofworld.org/wp-content/themes/orbis/assets/fonts/InputMono-Regular.woff") format("woff"), 
+	url("https://restofworld.org/wp-content/themes/orbis/assets/fonts/InputMono-Regular.eot?#iefix") format("embedded-opentype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap; }
 
+	/* Note: As of 2024 GT Sectra has been replaced with system font Georgia */
+
+@font-face {
+	font-family: "GT Sectra";
+	src: url("https://restofworld.org/wp-content/themes/orbis/assets/fonts/GT-Sectra-Book.woff2") format("woff2"), 
+	url("https://restofworld.org/wp-content/themes/orbis/assets/fonts/GT-Sectra-Book.woff") format("woff"), 
+	url("https://restofworld.org/wp-content/themes/orbis/assets/fonts/GT-Sectra-Book.eot?#iefix") format("embedded-opentype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap; }
+	  
+@font-face {
+	font-family: "GT Sectra";
+	src: url("https://restofworld.org/wp-content/themes/orbis/assets/fonts/GT-Sectra-Book-Italic.woff2") format("woff2"), 
+	url("https://restofworld.org/wp-content/themes/orbis/assets/fonts/GT-Sectra-Book-Italic.woff") format("woff"), 
+	url("https://restofworld.org/wp-content/themes/orbis/assets/fonts/GT-Sectra-Book-Italic.eot?#iefix") format("embedded-opentype");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap; }
+  
     body {
       font-family: sans-serif;
       background: #fafafa;
@@ -97,9 +137,9 @@
       position: static;
     }
     #g-template-full .g-pstyle0 {
-      font-weight: 400;
+      font-weight: 700;
       line-height: 25px;
-      font-size: 21px;
+      font-size: 20px;
     }
     #g-template-full .g-pstyle1 {
       font-weight: 400;
@@ -107,7 +147,7 @@
       font-size: 13px;
     }
     #g-template-full .g-pstyle2 {
-      font-weight: 400;
+      font-weight: 700;
       line-height: 19px;
       height: 19px;
       font-size: 16px;
@@ -133,8 +173,8 @@
       }
     }
     #g-template-mobile p {
-      font-family: Moderat-Regular;
-      font-weight: regular;
+      font-family: "Moderat";
+      font-weight: normal;
       line-height: 12px;
       opacity: 1;
       letter-spacing: 0em;
@@ -150,7 +190,7 @@
       position: static;
     }
     #g-template-mobile .g-pstyle0 {
-      font-weight: 400;
+      font-weight: 700;
       line-height: 23px;
       font-size: 19px;
     }
@@ -160,7 +200,7 @@
       font-size: 13px;
     }
     #g-template-mobile .g-pstyle2 {
-      font-weight: 400;
+      font-weight: 700;
       line-height: 18px;
       height: 18px;
       font-size: 15px;
@@ -196,7 +236,7 @@
     
       <img id="g-template-full-img" class="g-template-full-img g-aiImg" alt="" src="template-full.png"/>
       <div id="g-ai0-1" class="g-text g-aiAbs" style="top:1.1038%;left:1.1004%;width:93.4286%;">
-        <p class="g-pstyle0">Top customers for US, China and Russia&rsquo;s space launch sites</p>
+        <p class="g-pstyle0">Top customers for US, China and Russia's space launch sites</p>
       </div>
       <div id="g-ai0-2" class="g-text g-aiAbs" style="top:7.064%;left:1.1011%;width:98.8571%;">
         <p class="g-pstyle1">Since 1957, European countries have used launch sites in these three countries the most for their space missions</p>
@@ -311,6 +351,16 @@
 
 
   <script src="sankey.js"></script>
-
+  <script>
+  const data = {
+      type: 'height',
+      content: document.body.clientHeight
+    }
+    window.parent.postMessage(JSON.stringify(data), location.origin)
+    window.addEventListener('resize', () => {
+      data.content = document.body.clientHeight
+      window.parent.postMessage(JSON.stringify(data), location.origin)
+    })
+  </script>
 </body>
 </html>

@@ -1,4 +1,3 @@
-
 const tooltip = d3.select(".tooltip");
 
 console.log("Script loaded, tooltip:", tooltip);
@@ -22,6 +21,21 @@ function addInteractivity(artboardId, svgFileName) {
     svg.style("pointer-events", "auto");
 
     console.log(`SVG inserted into ${artboardId}`, svg.node());
+
+    // Add CSS for dimming effect
+    const style = document.createElement('style');
+    style.textContent = `
+      #${artboardId} path {
+        transition: opacity 0.2s ease;
+      }
+      #${artboardId}.dimmed path {
+        opacity: 0.2 !important;
+      }
+      #${artboardId} path.highlighted {
+        opacity: 1 !important;
+      }
+    `;
+    document.head.appendChild(style);
 
     const allIds = [];
     svg.selectAll("[id]").each(function () {
@@ -50,29 +64,35 @@ function addInteractivity(artboardId, svgFileName) {
             .style("cursor", "pointer")
             .style("pointer-events", "all")
             .attr("data-interactive", "true")
-            .attr("stroke-width", "30")
-            .attr("stroke", "transparent")
-            .on("mouseover", function (event) {
-              d3.select(this).style("opacity", 0.7);
+            .on("mouseenter", function (event) {
+              // Add dimmed class to artboard
+              artboard.classList.add('dimmed');
+              
+              // Add highlighted class to this element
+              this.classList.add('highlighted');
+
               tooltip
                 .style("opacity", 1)
                 .html(`<strong>${d.SatState} → ${d.LVState}</strong><br>${d.Count} launches`)
                 .style("left", (event.pageX + 10) + "px")
                 .style("top", (event.pageY - 20) + "px");
             })
-            .on("mousemove", (event) => {
-              tooltip
-                .style("left", (event.pageX + 10) + "px")
-                .style("top", (event.pageY - 20) + "px");
-            })
-            .on("mouseout", function () {
-              d3.select(this).style("opacity", 1);
+            .on("mouseleave", function () {
+              // Remove dimmed class from artboard
+              artboard.classList.remove('dimmed');
+              
+              // Remove highlighted class from this element
+              this.classList.remove('highlighted');
+
               tooltip.style("opacity", 0);
             })
             .on("touchstart", function (event) {
               event.preventDefault();
               const touch = event.touches[0];
-              d3.select(this).style("opacity", 0.7);
+              
+              artboard.classList.add('dimmed');
+              this.classList.add('highlighted');
+              
               tooltip
                 .style("opacity", 1)
                 .html(`<strong>${d.SatState} → ${d.LVState}</strong><br>${d.Count} launches`)
@@ -80,7 +100,9 @@ function addInteractivity(artboardId, svgFileName) {
                 .style("top", (touch.pageY - 20) + "px");
             })
             .on("touchend", function () {
-              d3.select(this).style("opacity", 1);
+              artboard.classList.remove('dimmed');
+              this.classList.remove('highlighted');
+              
               tooltip.style("opacity", 0);
             });
         } else {
@@ -95,9 +117,8 @@ function addInteractivity(artboardId, svgFileName) {
           node
             .style("cursor", "pointer")
             .style("pointer-events", "all")
-            .attr("stroke-width", "30")
-            .attr("stroke", "transparent")
-            .on("mouseover", function (event) {
+            .attr("data-interactive-node", "true")
+            .on("mouseenter", function (event) {
               tooltip
                 .style("opacity", 1)
                 .html(`<strong>${d.SatState}</strong><br>${d.Count} launches`)
@@ -109,7 +130,7 @@ function addInteractivity(artboardId, svgFileName) {
                 .style("left", (event.pageX + 10) + "px")
                 .style("top", (event.pageY - 20) + "px");
             })
-            .on("mouseout", () => {
+            .on("mouseleave", () => {
               tooltip.style("opacity", 0);
             })
             .on("touchstart", function (event) {

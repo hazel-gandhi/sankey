@@ -1,729 +1,1998 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="mobile" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 357.82 488.33">
+<svg id="mobile" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 357.8 488.3">
+  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
   <defs>
     <style>
-      .cls-1 {
-        letter-spacing: -.05em;
-      }
-
-      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
-        font-size: 13px;
-      }
-
-      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33 {
-        isolation: isolate;
-      }
-
-      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33 {
-        font-family: Moderat-Regular, Moderat;
-      }
-
-      .cls-2 {
-        letter-spacing: -.03em;
-      }
-
-      .cls-3 {
-        letter-spacing: -.03em;
-      }
-
-      .cls-4 {
-        letter-spacing: -.04em;
-      }
-
-      .cls-5 {
-        letter-spacing: -.01em;
-      }
-
-      .cls-34 {
-        stroke: url(#linear-gradient-6);
-        stroke-width: 6.28px;
-      }
-
-      .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-40, .cls-41, .cls-42, .cls-43, .cls-44, .cls-45 {
-        fill: none;
-      }
-
-      .cls-35 {
-        stroke: url(#linear-gradient-8);
-        stroke-width: 8.12px;
-      }
-
-      .cls-36 {
-        stroke: url(#linear-gradient-4);
-        stroke-width: 17.54px;
-      }
-
-      .cls-37 {
-        stroke: url(#linear-gradient-3);
-        stroke-width: 15.45px;
-      }
-
-      .cls-38 {
-        stroke: url(#linear-gradient-5);
-        stroke-width: 19.63px;
-      }
-
-      .cls-39 {
-        stroke: url(#linear-gradient-7);
-        stroke-width: 19.37px;
-      }
-
-      .cls-7, .cls-46 {
-        letter-spacing: -.02em;
-      }
-
-      .cls-40 {
-        stroke: url(#linear-gradient-9);
-        stroke-width: 20.16px;
-      }
-
-      .cls-41 {
-        stroke: url(#linear-gradient-2);
-        stroke-width: 3.4px;
-      }
-
-      .cls-8, .cls-14, .cls-16, .cls-17, .cls-19, .cls-20 {
-        font-size: 12px;
-      }
-
-      .cls-9, .cls-10, .cls-11, .cls-12, .cls-15 {
+      .st0 {
         font-size: 15px;
       }
 
-      .cls-9, .cls-47 {
-        letter-spacing: -.02em;
+      .st0, .st1, .st2, .st3, .st4, .st5 {
+        isolation: isolate;
       }
 
-      .cls-10, .cls-48 {
-        letter-spacing: -.05em;
+      .st0, .st4 {
+        font-family: Moderat-Bold, Moderat;
+        font-weight: 700;
       }
 
-      .cls-11, .cls-28, .cls-49 {
-        letter-spacing: -.03em;
+      .st1 {
+        font-size: 13px;
       }
 
-      .cls-12 {
-        letter-spacing: -.04em;
+      .st1, .st2, .st5 {
+        font-family: Moderat-Regular, Moderat;
       }
 
-      .cls-13 {
-        letter-spacing: -.01em;
+      .st6 {
+        stroke: url(#linear-gradient11);
+        stroke-width: 3.4px;
       }
 
-      .cls-13, .cls-22, .cls-23, .cls-27, .cls-28, .cls-29, .cls-30, .cls-33 {
-        font-size: 10px;
+      .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17 {
+        fill: none;
       }
 
-      .cls-14 {
-        letter-spacing: -.03em;
+      .st2 {
+        font-size: 12px;
       }
 
-      .cls-16, .cls-50 {
-        letter-spacing: -.05em;
+      .st7 {
+        stroke: url(#linear-gradient);
+        stroke-width: 4.4px;
       }
 
-      .cls-17 {
-        letter-spacing: -.04em;
+      .st8 {
+        stroke: url(#linear-gradient4);
+        stroke-width: 6.3px;
       }
 
-      .cls-19 {
-        letter-spacing: -.02em;
+      .st9 {
+        stroke: url(#linear-gradient8);
+        stroke-width: 5.2px;
       }
 
-      .cls-20, .cls-22, .cls-51 {
-        letter-spacing: -.02em;
+      .st10 {
+        stroke: url(#linear-gradient6);
+        stroke-width: 8.1px;
       }
 
-      .cls-21, .cls-24, .cls-25, .cls-26, .cls-31, .cls-32 {
+      .st11 {
+        stroke: url(#linear-gradient1);
+        stroke-width: 15.4px;
+      }
+
+      .st12 {
+        stroke: url(#linear-gradient2);
+        stroke-width: 17.5px;
+      }
+
+      .st13 {
+        stroke: url(#linear-gradient3);
+        stroke-width: 19.6px;
+      }
+
+      .st14 {
+        stroke: url(#linear-gradient7);
+        stroke-width: 20.2px;
+      }
+
+      .st15 {
+        stroke: url(#linear-gradient5);
+        stroke-width: 19.4px;
+      }
+
+      .st16 {
+        stroke: url(#linear-gradient9);
+        stroke-width: 61.5px;
+      }
+
+      .st4 {
         font-size: 19px;
       }
 
-      .cls-21, .cls-52 {
-        letter-spacing: -.02em;
+      .st17 {
+        stroke: url(#linear-gradient12);
+        stroke-width: 2.1px;
       }
 
-      .cls-23, .cls-53 {
-        letter-spacing: -.02em;
+      .st5 {
+        font-size: 10px;
       }
 
-      .cls-24 {
-        letter-spacing: -.03em;
-      }
-
-      .cls-25 {
-        letter-spacing: -.03em;
-      }
-
-      .cls-42 {
-        stroke: url(#linear-gradient);
-        stroke-width: 4.45px;
-      }
-
-      .cls-26 {
-        letter-spacing: -.05em;
-      }
-
-      .cls-27 {
-        letter-spacing: -.03em;
-      }
-
-      .cls-29 {
-        letter-spacing: -.05em;
-      }
-
-      .cls-30 {
-        letter-spacing: -.04em;
-      }
-
-      .cls-31 {
-        letter-spacing: 0em;
-      }
-
-      .cls-54 {
+      .st18 {
         fill: #242ef7;
-        stroke: url(#linear-gradient-12);
-        stroke-width: 66.75px;
-      }
-
-      .cls-43 {
-        stroke: url(#linear-gradient-10);
-        stroke-width: 5.24px;
-      }
-
-      .cls-55 {
-        letter-spacing: 0em;
-      }
-
-      .cls-44 {
-        stroke: url(#linear-gradient-11);
-        stroke-width: 61.52px;
-      }
-
-      .cls-56 {
-        letter-spacing: -.07em;
-      }
-
-      .cls-45 {
-        stroke: url(#linear-gradient-13);
-        stroke-width: 2.09px;
-      }
-
-      .cls-57 {
-        letter-spacing: -.03em;
-      }
-
-      .cls-58 {
-        letter-spacing: -.02em;
-      }
-
-      .cls-59 {
-        letter-spacing: -.02em;
-      }
-
-      .cls-60 {
-        letter-spacing: -.02em;
-      }
-
-      .cls-61 {
-        letter-spacing: -.04em;
-      }
-
-      .cls-62 {
-        letter-spacing: -.04em;
+        stroke: url(#linear-gradient10);
+        stroke-width: 66.8px;
       }
     </style>
-    <linearGradient id="linear-gradient" x1="75.07" y1="369.27" x2="297.84" y2="369.27" gradientTransform="translate(0 518) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient" x1="75.1" y1="359.3" x2="297.9" y2="359.3" gradientTransform="translate(0 508) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#0b2566"/>
+      <stop offset="0" stop-color="#9ee9df"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-2" x1="75.07" y1="254.62" x2="297.84" y2="254.62" gradientTransform="translate(0 518) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient1" x1="75.1" y1="280.8" x2="297.9" y2="280.8" gradientTransform="translate(0 508) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#0b2566"/>
+      <stop offset="0" stop-color="#ffbef0"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-3" x1="75.07" y1="290.83" x2="297.84" y2="290.83" gradientTransform="translate(0 518) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient2" x1="75.1" y1="324.6" x2="297.9" y2="324.6" gradientTransform="translate(0 508) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#ba0582"/>
+      <stop offset="0" stop-color="#242ef7"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-4" x1="75.07" y1="334.65" x2="297.84" y2="334.65" gradientTransform="translate(0 518) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient3" x1="75.1" y1="249.6" x2="297.9" y2="249.6" gradientTransform="translate(0 508) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff"/>
+      <stop offset="0" stop-color="#ffbef0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient4" x1="75.1" y1="298.3" x2="297.9" y2="298.3" gradientTransform="translate(0 508) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0" stop-color="#242ef7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient5" x1="75.1" y1="223.9" x2="297.9" y2="223.9" gradientTransform="translate(0 508) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0" stop-color="#ffbef0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient6" x1="75.1" y1="278.8" x2="297.9" y2="278.8" gradientTransform="translate(0 508) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0" stop-color="#2d36f7"/>
       <stop offset="1" stop-color="#242ef7"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-5" x1="75.07" y1="259.62" x2="297.84" y2="259.62" gradientTransform="translate(0 518) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient7" x1="75.1" y1="198.1" x2="297.9" y2="198.1" gradientTransform="translate(0 508) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#ba0582"/>
+      <stop offset="0" stop-color="#ffbef0"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-6" x1="75.07" y1="308.3" x2="297.84" y2="308.3" gradientTransform="translate(0 518) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient8" x1="75.1" y1="259.3" x2="297.9" y2="259.3" gradientTransform="translate(0 508) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#242ef7"/>
+      <stop offset="0" stop-color="#242ef7"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-7" x1="75.07" y1="233.96" x2="297.84" y2="233.96" gradientTransform="translate(0 518) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient9" x1="75.1" y1="152.3" x2="297.9" y2="152.3" gradientTransform="translate(0 508) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#ba0582"/>
+      <stop offset="0" stop-color="#ffbef0"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-8" x1="75.07" y1="288.74" x2="297.84" y2="288.74" gradientTransform="translate(0 518) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient10" x1="75.1" y1="187" x2="297.9" y2="187" gradientTransform="translate(0 508) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#242ef7"/>
+      <stop offset="0" stop-color="#242ef7"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-9" x1="75.07" y1="208.03" x2="297.84" y2="208.03" gradientTransform="translate(0 518) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient11" x1="75.1" y1="244.7" x2="297.9" y2="244.7" gradientTransform="translate(0 508) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#ba0582"/>
+      <stop offset="0" stop-color="#9ee9df"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-10" x1="75.07" y1="269.31" x2="297.84" y2="269.31" gradientTransform="translate(0 518) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient12" x1="75.1" y1="365.4" x2="297.9" y2="365.4" gradientTransform="translate(0 508) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#242ef7"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-11" x1="75.07" y1="162.28" x2="297.84" y2="162.28" gradientTransform="translate(0 518) scale(1 -1)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#ba0582"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-12" x1="75.07" y1="197.05" x2="297.84" y2="197.05" gradientTransform="translate(0 518) scale(1 -1)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#242ef7"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-13" x1="75.07" y1="375.39" x2="297.84" y2="375.39" gradientTransform="translate(0 518) scale(1 -1)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#0b2566"/>
+      <stop offset="0" stop-color="#9ee9df"/>
     </linearGradient>
   </defs>
-  <g id="node_border" data-name="node border">
-    <rect x="69.76" y="133.54" width="5.3" height="2.22"/>
-    <rect x="69.76" y="141.06" width="5.3" height="4.72"/>
-    <rect x="297.83" y="149.45" width="5.3" height="10.55"/>
-    <rect x="69.76" y="154.09" width="5.3" height="16.38"/>
-    <rect x="69.76" y="176.78" width="5.3" height="18.61"/>
-    <rect x="69.76" y="196.68" width="5.3" height="20.83"/>
-    <rect x="69.76" y="222.82" width="5.3" height="27.21"/>
-    <rect x="69.76" y="255.33" width="5.3" height="29.99"/>
-    <rect x="69.76" y="290.63" width="5.3" height="70.81"/>
-    <rect x="69.76" y="366.74" width="5.3" height="74.42"/>
-    <rect x="297.83" y="170.77" width="5.3" height="101"/>
-    <rect x="297.83" y="283.77" width="5.3" height="135"/>
+  <g id="node_border">
+    <rect x="69.8" y="133.5" width="5.3" height="2.2"/>
+    <rect x="69.8" y="141.1" width="5.3" height="4.7"/>
+    <rect x="297.8" y="149.4" width="5.3" height="10.6"/>
+    <rect x="69.8" y="154.1" width="5.3" height="16.4"/>
+    <rect x="69.8" y="176.8" width="5.3" height="18.6"/>
+    <rect x="69.8" y="196.7" width="5.3" height="20.8"/>
+    <rect x="69.8" y="222.8" width="5.3" height="27.2"/>
+    <rect x="69.8" y="255.3" width="5.3" height="30"/>
+    <rect x="69.8" y="290.6" width="5.3" height="70.8"/>
+    <rect x="69.8" y="366.7" width="5.3" height="74.4"/>
+    <rect x="297.8" y="170.8" width="5.3" height="101"/>
+    <rect x="297.8" y="283.8" width="5.3" height="135"/>
   </g>
-  <path id="Uruguay_China" data-name="Uruguay China" class="cls-42" d="M75.07,143.42c111.38,0,111.38,10.61,222.77,10.61"/>
-  <path id="US_China" data-name="US China" class="cls-41" d="M75.07,368.55c111.38,0,111.38-210.35,222.77-210.35"/>
-  <path id="Spain_US" data-name="Spain US" class="cls-37" d="M75.07,162.28c111.38,0,111.38,129.77,222.77,129.77"/>
-  <path id="Germany_Russia" data-name="Germany Russia" class="cls-36" d="M75.07,187.08c111.38,0,111.38-7.47,222.77-7.47"/>
-  <path id="Italy_US" data-name="Italy US" class="cls-38" d="M75.07,208.1c111.38,0,111.38,100.55,222.77,100.55"/>
-  <path id="Canada_Russia" data-name="Canada Russia" class="cls-34" d="M75.07,229.15c111.38,0,111.38-38.9,222.77-38.9"/>
-  <path id="Canada_US" data-name="Canada US" class="cls-39" d="M75.07,239.75c111.38,0,111.38,88.58,222.77,88.58"/>
-  <path id="Japan_Russia" data-name="Japan Russia" class="cls-35" d="M75.07,261.64c111.38,0,111.38-64.76,222.77-64.76"/>
-  <path id="Japan_US" data-name="Japan US" class="cls-40" d="M75.07,272.63c111.38,0,111.38,74.67,222.77,74.67"/>
-  <path id="UK_Russia" data-name="UK Russia" class="cls-43" d="M75.07,294.41c111.38,0,111.38-91.44,222.77-91.44"/>
-  <path id="UK_US" data-name="UK US" class="cls-44" d="M75.07,323.81c111.38,0,111.38,63.81,222.77,63.81"/>
-  <path id="US_Russia" data-name="US Russia" class="cls-54" d="M75.07,403.76c111.38,0,111.38-165.62,222.77-165.62"/>
-  <g class="cls-18">
-    <text class="cls-32" transform="translate(4.11 16.15)"><tspan x="0" y="0">T</tspan></text>
-    <text class="cls-32" transform="translate(12.3 16.15)"><tspan x="0" y="0">o</tspan></text>
-    <text class="cls-32" transform="translate(23.22 16.15)"><tspan x="0" y="0">p</tspan></text>
-    <text class="cls-32" transform="translate(34.76 16.15)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-32" transform="translate(39.47 16.15)"><tspan x="0" y="0">c</tspan></text>
-    <text class="cls-32" transform="translate(50.24 16.15)"><tspan x="0" y="0">u</tspan></text>
-    <text class="cls-32" transform="translate(60.79 16.15)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-21" transform="translate(69.19 16.15)"><tspan x="0" y="0">t</tspan></text>
-    <text class="cls-32" transform="translate(76.14 16.15)"><tspan x="0" y="0">o</tspan></text>
-    <text class="cls-32" transform="translate(87.06 16.15)"><tspan x="0" y="0">m</tspan></text>
-    <text class="cls-32" transform="translate(102.89 16.15)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-24" transform="translate(113.53 16.15)"><tspan x="0" y="0">r</tspan></text>
-    <text class="cls-32" transform="translate(120.11 16.15)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-32" transform="translate(129.66 16.15)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-21" transform="translate(134.22 16.15)"><tspan x="0" y="0">f</tspan></text>
-    <text class="cls-32" transform="translate(140.38 16.15)"><tspan x="0" y="0">o</tspan></text>
-    <text class="cls-24" transform="translate(151.3 16.15)"><tspan x="0" y="0">r</tspan></text>
-    <text class="cls-32" transform="translate(158.07 16.15)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-32" transform="translate(163.2 16.15)"><tspan x="0" y="0">U</tspan></text>
-    <text class="cls-21" transform="translate(176.23 16.15)"><tspan x="0" y="0">S</tspan></text>
-    <text class="cls-31" transform="translate(187.57 16.15)"><tspan x="0" y="0">,</tspan></text>
-    <text class="cls-32" transform="translate(191.94 16.15)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-21" transform="translate(196.1 16.15)"><tspan x="0" y="0">C</tspan></text>
-    <text class="cls-32" transform="translate(209.4 16.15)"><tspan x="0" y="0">h</tspan></text>
-    <text class="cls-32" transform="translate(219.87 16.15)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-32" transform="translate(224.87 16.15)"><tspan x="0" y="0">n</tspan></text>
-    <text class="cls-26" transform="translate(235.51 16.15)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-32" transform="translate(244.8 16.15)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-26" transform="translate(249.87 16.15)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-32" transform="translate(259.81 16.15)"><tspan x="0" y="0">n</tspan></text>
-    <text class="cls-32" transform="translate(270.38 16.15)"><tspan x="0" y="0">d </tspan></text>
-    <text class="cls-32" transform="translate(287.08 16.15)"><tspan x="0" y="0">R</tspan></text>
-    <text class="cls-32" transform="translate(298.27 16.15)"><tspan x="0" y="0">u</tspan></text>
-    <text class="cls-32" transform="translate(308.81 16.15)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-32" transform="translate(317.42 16.15)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-32" transform="translate(326.05 16.15)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-26" transform="translate(330.87 16.15)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-25" transform="translate(338.83 16.15)"><tspan x="0" y="0">’</tspan></text>
-    <text class="cls-32" transform="translate(341.85 16.15)"><tspan x="0" y="0">s </tspan></text>
-    <text class="cls-32" transform="translate(4.11 38.95)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-32" transform="translate(13.1 38.95)"><tspan x="0" y="0">p</tspan></text>
-    <text class="cls-26" transform="translate(24.15 38.95)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-32" transform="translate(33.88 38.95)"><tspan x="0" y="0">c</tspan></text>
-    <text class="cls-32" transform="translate(44.71 38.95)"><tspan x="0" y="0">e </tspan></text>
-    <text class="cls-32" transform="translate(60.96 38.95)"><tspan x="0" y="0">l</tspan></text>
-    <text class="cls-26" transform="translate(65.46 38.95)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-32" transform="translate(75.21 38.95)"><tspan x="0" y="0">u</tspan></text>
-    <text class="cls-32" transform="translate(85.81 38.95)"><tspan class="cls-52" x="0" y="0">n</tspan><tspan x="10.56" y="0">c</tspan></text>
-    <text class="cls-32" transform="translate(107.03 38.95)"><tspan x="0" y="0">h</tspan></text>
-    <text class="cls-32" transform="translate(118.05 38.95)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-32" transform="translate(122.65 38.95)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-32" transform="translate(131.28 38.95)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-21" transform="translate(135.65 38.95)"><tspan x="0" y="0">t</tspan></text>
-    <text class="cls-32" transform="translate(142.6 38.95)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-32" transform="translate(153.11 38.95)"><tspan x="0" y="0">s</tspan></text>
+  <path id="Uruguay_China" class="st7" d="M75.1,143.4c111.4,0,111.4,10.6,222.8,10.6"/>
+  <path id="Spain_US" class="st11" d="M75.1,162.3c111.4,0,111.4,129.8,222.8,129.8"/>
+  <path id="Germany_Russia" class="st12" d="M75.1,187.1c111.4,0,111.4-7.5,222.8-7.5"/>
+  <path id="Italy_US" class="st13" d="M75.1,208.1c111.4,0,111.4,100.6,222.8,100.6"/>
+  <path id="Canada_Russia" class="st8" d="M75.1,229.1c111.4,0,111.4-38.9,222.8-38.9"/>
+  <path id="Canada_US" class="st15" d="M75.1,239.8c111.4,0,111.4,88.6,222.8,88.6"/>
+  <path id="Japan_Russia" class="st10" d="M75.1,261.6c111.4,0,111.4-64.8,222.8-64.8"/>
+  <path id="Japan_US" class="st14" d="M75.1,272.6c111.4,0,111.4,74.7,222.8,74.7"/>
+  <path id="UK_Russia" class="st9" d="M75.1,294.4c111.4,0,111.4-91.4,222.8-91.4"/>
+  <path id="UK_US" class="st16" d="M75.1,323.8c111.4,0,111.4,63.8,222.8,63.8"/>
+  <path id="US_Russia" class="st18" d="M75.1,403.8c111.4,0,111.4-165.6,222.8-165.6"/>
+  <path id="US_China" class="st6" d="M75.1,368.5c111.4,0,111.4-210.4,222.8-210.4"/>
+  <g class="st3">
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(4.1 16.1)"><tspan x="0" y="0">T</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(12.3 16.1)"><tspan x="0" y="0">o</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(23.2 16.1)"><tspan x="0" y="0">p</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(39.5 16.1)"><tspan x="0" y="0">c</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(50.2 16.1)"><tspan x="0" y="0">u</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(60.8 16.1)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(69.2 16.1)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(76.1 16.1)"><tspan x="0" y="0">o</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(87.1 16.1)"><tspan x="0" y="0">m</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(102.9 16.1)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(113.5 16.1)"><tspan x="0" y="0">r</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(120.1 16.1)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(134.2 16.1)"><tspan x="0" y="0">f</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(140.4 16.1)"><tspan x="0" y="0">o</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(151.3 16.1)"><tspan x="0" y="0">r</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(163.2 16.1)"><tspan x="0" y="0">U</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(176.2 16.1)"><tspan x="0" y="0">S</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(187.6 16.1)"><tspan x="0" y="0">,</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(196.1 16.1)"><tspan x="0" y="0">C</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(209.4 16.1)"><tspan x="0" y="0">h</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(219.9 16.1)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(224.9 16.1)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(235.5 16.1)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(249.9 16.1)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(259.8 16.1)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(270.4 16.1)"><tspan x="0" y="0">d</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(287.1 16.1)"><tspan x="0" y="0">R</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(298.3 16.1)"><tspan x="0" y="0">u</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(308.8 16.1)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(317.4 16.1)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(326 16.1)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(330.9 16.1)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(338.8 16.1)"><tspan x="0" y="0">’</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(341.9 16.1)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(4.1 39)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(13.1 39)"><tspan x="0" y="0">p</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(24.1 39)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(33.9 39)"><tspan x="0" y="0">c</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(44.7 39)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(61 39)"><tspan x="0" y="0">l</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(65.5 39)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(75.2 39)"><tspan x="0" y="0">u</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(85.8 39)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+      <g class="st3">
+        <text class="st4" transform="translate(96.4 39)"><tspan x="0" y="0">c</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(107 39)"><tspan x="0" y="0">h</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(122.6 39)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(131.3 39)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(135.6 39)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(142.6 39)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st4" transform="translate(153.1 39)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
   </g>
-  <g class="cls-18">
-    <text class="cls-7" transform="translate(3.5 56.18)"><tspan x="0" y="0">S</tspan></text>
-    <text class="cls-6" transform="translate(11.08 56.18)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-6" transform="translate(14.5 56.18)"><tspan x="0" y="0">n</tspan></text>
-    <text class="cls-6" transform="translate(21.73 56.18)"><tspan x="0" y="0">c</tspan></text>
-    <text class="cls-6" transform="translate(29.14 56.18)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-6" transform="translate(36.74 56.18)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-6" transform="translate(39.61 56.18)"><tspan class="cls-55" x="0" y="0">1</tspan><tspan class="cls-46" x="4.72" y="0">9</tspan></text>
-    <text class="cls-6" transform="translate(51.25 56.18)"><tspan x="0" y="0">5</tspan></text>
-    <text class="cls-3" transform="translate(58.33 56.18)"><tspan x="0" y="0">7</tspan></text>
-    <text class="cls-5" transform="translate(62.43 56.18)"><tspan x="0" y="0">,</tspan></text>
-    <text class="cls-6" transform="translate(65.42 56.18)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-6" transform="translate(68.93 56.18)"><tspan x="0" y="0">E</tspan></text>
-    <text class="cls-6" transform="translate(76.09 56.18)"><tspan x="0" y="0">u</tspan></text>
-    <text class="cls-2" transform="translate(83.35 56.18)"><tspan x="0" y="0">r</tspan></text>
-    <text class="cls-6" transform="translate(87.71 56.18)"><tspan x="0" y="0">o</tspan></text>
-    <text class="cls-6" transform="translate(95.19 56.18)"><tspan x="0" y="0">p</tspan></text>
-    <text class="cls-6" transform="translate(102.81 56.18)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-1" transform="translate(110.09 56.18)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-6" transform="translate(116.89 56.18)"><tspan x="0" y="0">n</tspan></text>
-    <text class="cls-6" transform="translate(124.37 56.18)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-6" transform="translate(127.6 56.18)"><tspan x="0" y="0">c</tspan></text>
-    <text class="cls-6" transform="translate(135.01 56.18)"><tspan x="0" y="0">o</tspan></text>
-    <text class="cls-6" transform="translate(142.49 56.18)"><tspan x="0" y="0">u</tspan></text>
-    <text class="cls-6" transform="translate(149.75 56.18)"><tspan x="0" y="0">n</tspan></text>
-    <text class="cls-7" transform="translate(156.59 56.18)"><tspan x="0" y="0">t</tspan></text>
-    <text class="cls-2" transform="translate(161.68 56.18)"><tspan x="0" y="0">r</tspan></text>
-    <text class="cls-6" transform="translate(166.25 56.18)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-6" transform="translate(169.52 56.18)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-6" transform="translate(176.71 56.18)"><tspan x="0" y="0">s </tspan></text>
-    <text class="cls-6" transform="translate(186.76 56.18)"><tspan x="0" y="0">h</tspan></text>
-    <text class="cls-1" transform="translate(194.09 56.18)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-4" transform="translate(200.11 56.18)"><tspan x="0" y="0">v</tspan></text>
-    <text class="cls-6" transform="translate(206.78 56.18)"><tspan x="0" y="0">e </tspan></text>
-    <text class="cls-6" transform="translate(217.89 56.18)"><tspan x="0" y="0">u</tspan></text>
-    <text class="cls-6" transform="translate(225.11 56.18)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-6" transform="translate(231.28 56.18)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-6" transform="translate(238.62 56.18)"><tspan x="0" y="0">d </tspan></text>
-    <text class="cls-6" transform="translate(250.04 56.18)"><tspan x="0" y="0">l</tspan></text>
-    <text class="cls-1" transform="translate(253.12 56.18)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-6" transform="translate(259.79 56.18)"><tspan x="0" y="0">u</tspan></text>
-    <text class="cls-6" transform="translate(267.05 56.18)"><tspan class="cls-46" x="0" y="0">n</tspan><tspan x="7.23" y="0">c</tspan></text>
-    <text class="cls-6" transform="translate(281.57 56.18)"><tspan x="0" y="0">h</tspan></text>
-    <text class="cls-6" transform="translate(289.11 56.18)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-6" transform="translate(292.25 56.18)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-6" transform="translate(298.16 56.18)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-7" transform="translate(301.15 56.18)"><tspan x="0" y="0">t</tspan></text>
-    <text class="cls-6" transform="translate(305.9 56.18)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-6" transform="translate(313.09 56.18)"><tspan x="0" y="0">s </tspan></text>
-    <text class="cls-6" transform="translate(323.14 56.18)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-6" transform="translate(326.56 56.18)"><tspan x="0" y="0">n </tspan></text>
-    <text class="cls-7" transform="translate(3.5 71.78)"><tspan x="0" y="0">t</tspan></text>
-    <text class="cls-6" transform="translate(8.62 71.78)"><tspan x="0" y="0">h</tspan></text>
-    <text class="cls-6" transform="translate(15.9 71.78)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-6" transform="translate(23.09 71.78)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-6" transform="translate(29.27 71.78)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-6" transform="translate(36.87 71.78)"><tspan class="cls-61" x="0" y="0"> </tspan><tspan class="cls-46" x="2.98" y="0">t</tspan></text>
-    <text class="cls-6" transform="translate(44.97 71.78)"><tspan x="0" y="0">h</tspan></text>
-    <text class="cls-2" transform="translate(52.24 71.78)"><tspan x="0" y="0">r</tspan></text>
-    <text class="cls-6" transform="translate(56.6 71.78)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-6" transform="translate(63.94 71.78)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-6" transform="translate(71.54 71.78)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-6" transform="translate(74.77 71.78)"><tspan x="0" y="0">c</tspan></text>
-    <text class="cls-6" transform="translate(82.18 71.78)"><tspan x="0" y="0">o</tspan></text>
-    <text class="cls-6" transform="translate(89.66 71.78)"><tspan x="0" y="0">u</tspan></text>
-    <text class="cls-6" transform="translate(96.92 71.78)"><tspan x="0" y="0">n</tspan></text>
-    <text class="cls-7" transform="translate(103.76 71.78)"><tspan x="0" y="0">t</tspan></text>
-    <text class="cls-2" transform="translate(108.85 71.78)"><tspan x="0" y="0">r</tspan></text>
-    <text class="cls-6" transform="translate(113.41 71.78)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-6" transform="translate(116.69 71.78)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-6" transform="translate(123.88 71.78)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-6" transform="translate(130.42 71.78)"><tspan class="cls-61" x="0" y="0"> </tspan><tspan class="cls-46" x="2.98" y="0">t</tspan></text>
-    <text class="cls-6" transform="translate(138.52 71.78)"><tspan x="0" y="0">h</tspan></text>
-    <text class="cls-6" transform="translate(145.8 71.78)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-6" transform="translate(153.4 71.78)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-6" transform="translate(156.93 71.78)"><tspan x="0" y="0">m</tspan></text>
-    <text class="cls-6" transform="translate(167.75 71.78)"><tspan x="0" y="0">o</tspan></text>
-    <text class="cls-6" transform="translate(175.14 71.78)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-7" transform="translate(180.88 71.78)"><tspan x="0" y="0">t</tspan></text>
-    <text class="cls-6" transform="translate(186.28 71.78)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-7" transform="translate(189.4 71.78)"><tspan x="0" y="0">f</tspan></text>
-    <text class="cls-6" transform="translate(193.61 71.78)"><tspan x="0" y="0">o</tspan></text>
-    <text class="cls-2" transform="translate(201.09 71.78)"><tspan x="0" y="0">r</tspan></text>
-    <text class="cls-6" transform="translate(205.71 71.78)"><tspan class="cls-61" x="0" y="0"> </tspan><tspan class="cls-46" x="2.98" y="0">t</tspan></text>
-    <text class="cls-6" transform="translate(213.81 71.78)"><tspan x="0" y="0">h</tspan></text>
-    <text class="cls-6" transform="translate(221.09 71.78)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-6" transform="translate(228.09 71.78)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-2" transform="translate(231.51 71.78)"><tspan x="0" y="0">r</tspan></text>
-    <text class="cls-6" transform="translate(236.13 71.78)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-6" transform="translate(239.28 71.78)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-6" transform="translate(245.43 71.78)"><tspan x="0" y="0">p</tspan></text>
-    <text class="cls-1" transform="translate(252.99 71.78)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-6" transform="translate(259.65 71.78)"><tspan x="0" y="0">c</tspan></text>
-    <text class="cls-6" transform="translate(267.06 71.78)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-6" transform="translate(274.67 71.78)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-6" transform="translate(278.19 71.78)"><tspan x="0" y="0">m</tspan></text>
-    <text class="cls-6" transform="translate(288.9 71.78)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-6" transform="translate(291.99 71.78)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-6" transform="translate(297.88 71.78)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-6" transform="translate(303.79 71.78)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-6" transform="translate(307.06 71.78)"><tspan x="0" y="0">o</tspan></text>
-    <text class="cls-6" transform="translate(314.54 71.78)"><tspan x="0" y="0">n</tspan></text>
-    <text class="cls-6" transform="translate(321.71 71.78)"><tspan x="0" y="0">s</tspan></text>
+  <g class="st3">
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(3.5 56.2)"><tspan x="0" y="0">S</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(11.1 56.2)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(14.5 56.2)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(21.7 56.2)"><tspan x="0" y="0">c</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(29.1 56.2)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(39.6 56.2)"><tspan x="0" y="0">1</tspan></text>
+      </g>
+      <g class="st3">
+        <text class="st1" transform="translate(44.3 56.2)"><tspan x="0" y="0">9</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(51.2 56.2)"><tspan x="0" y="0">5</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(58.3 56.2)"><tspan x="0" y="0">7</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(62.4 56.2)"><tspan x="0" y="0">,</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(68.9 56.2)"><tspan x="0" y="0">E</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(76.1 56.2)"><tspan x="0" y="0">u</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(83.4 56.2)"><tspan x="0" y="0">r</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(87.7 56.2)"><tspan x="0" y="0">o</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(95.2 56.2)"><tspan x="0" y="0">p</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(102.8 56.2)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(110.1 56.2)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(116.9 56.2)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(127.6 56.2)"><tspan x="0" y="0">c</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(135 56.2)"><tspan x="0" y="0">o</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(142.5 56.2)"><tspan x="0" y="0">u</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(149.8 56.2)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(156.6 56.2)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(161.7 56.2)"><tspan x="0" y="0">r</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(166.2 56.2)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(169.5 56.2)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(176.7 56.2)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(186.8 56.2)"><tspan x="0" y="0">h</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(194.1 56.2)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(200.1 56.2)"><tspan x="0" y="0">v</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(206.8 56.2)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(217.9 56.2)"><tspan x="0" y="0">u</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(225.1 56.2)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(231.3 56.2)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(238.6 56.2)"><tspan x="0" y="0">d</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(250 56.2)"><tspan x="0" y="0">l</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(253.1 56.2)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(259.8 56.2)"><tspan x="0" y="0">u</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(267 56.2)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+      <g class="st3">
+        <text class="st1" transform="translate(274.3 56.2)"><tspan x="0" y="0">c</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(281.6 56.2)"><tspan x="0" y="0">h</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(292.2 56.2)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(298.2 56.2)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(301.1 56.2)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(305.9 56.2)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(313.1 56.2)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(323.1 56.2)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(326.6 56.2)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(3.5 71.8)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(8.6 71.8)"><tspan x="0" y="0">h</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(15.9 71.8)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(23.1 71.8)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(29.3 71.8)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(39.9 71.8)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(45 71.8)"><tspan x="0" y="0">h</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(52.2 71.8)"><tspan x="0" y="0">r</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(56.6 71.8)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(63.9 71.8)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(74.8 71.8)"><tspan x="0" y="0">c</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(82.2 71.8)"><tspan x="0" y="0">o</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(89.7 71.8)"><tspan x="0" y="0">u</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(96.9 71.8)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(103.8 71.8)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(108.9 71.8)"><tspan x="0" y="0">r</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(113.4 71.8)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(116.7 71.8)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(123.9 71.8)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(133.4 71.8)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(138.5 71.8)"><tspan x="0" y="0">h</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(145.8 71.8)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(156.9 71.8)"><tspan x="0" y="0">m</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(167.8 71.8)"><tspan x="0" y="0">o</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(175.1 71.8)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(180.9 71.8)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(189.4 71.8)"><tspan x="0" y="0">f</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(193.6 71.8)"><tspan x="0" y="0">o</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(201.1 71.8)"><tspan x="0" y="0">r</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(208.7 71.8)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(213.8 71.8)"><tspan x="0" y="0">h</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(221.1 71.8)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(228.1 71.8)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(231.5 71.8)"><tspan x="0" y="0">r</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(239.3 71.8)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(245.4 71.8)"><tspan x="0" y="0">p</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(253 71.8)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(259.6 71.8)"><tspan x="0" y="0">c</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(267.1 71.8)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(278.2 71.8)"><tspan x="0" y="0">m</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(288.9 71.8)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(292 71.8)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(297.9 71.8)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(303.8 71.8)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(307.1 71.8)"><tspan x="0" y="0">o</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(314.5 71.8)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st1" transform="translate(321.7 71.8)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
   </g>
-  <g class="cls-18">
-    <text class="cls-9" transform="translate(5.19 103.28)"><tspan x="0" y="0">S</tspan></text>
-    <text class="cls-15" transform="translate(14.01 103.28)"><tspan class="cls-56" x="0" y="0">a</tspan><tspan class="cls-58" x="7.05" y="0">t</tspan></text>
-    <text class="cls-15" transform="translate(26.55 103.28)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-15" transform="translate(34.97 103.28)"><tspan x="0" y="0">l</tspan></text>
-    <text class="cls-15" transform="translate(38.28 103.28)"><tspan x="0" y="0">l</tspan></text>
-    <text class="cls-15" transform="translate(41.33 103.28)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-9" transform="translate(44.78 103.28)"><tspan x="0" y="0">t</tspan></text>
-    <text class="cls-15" transform="translate(50.27 103.28)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-15" transform="translate(59.04 103.28)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-15" transform="translate(62.76 103.28)"><tspan x="0" y="0">o</tspan></text>
-    <text class="cls-12" transform="translate(70.83 103.28)"><tspan x="0" y="0">w</tspan></text>
-    <text class="cls-15" transform="translate(82.13 103.28)"><tspan x="0" y="0">n</tspan></text>
-    <text class="cls-15" transform="translate(90.47 103.28)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-15" transform="translate(98.93 103.28)"><tspan x="0" y="0">d </tspan></text>
-    <text class="cls-15" transform="translate(112.11 103.28)"><tspan x="0" y="0">b</tspan></text>
-    <text class="cls-12" transform="translate(120.42 103.28)"><tspan x="0" y="0">y</tspan></text>
+  <g class="st3">
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(5.2 103.3)"><tspan x="0" y="0">S</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(14 103.3)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+      <g class="st3">
+        <text class="st0" transform="translate(21.1 103.3)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(26.6 103.3)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(35 103.3)"><tspan x="0" y="0">l</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(38.3 103.3)"><tspan x="0" y="0">l</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(41.3 103.3)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(44.8 103.3)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(50.3 103.3)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(62.8 103.3)"><tspan x="0" y="0">o</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(70.8 103.3)"><tspan x="0" y="0">w</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(82.1 103.3)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(90.5 103.3)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(98.9 103.3)"><tspan x="0" y="0">d</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(112.1 103.3)"><tspan x="0" y="0">b</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(120.4 103.3)"><tspan x="0" y="0">y</tspan></text>
+      </g>
+    </g>
   </g>
-  <g class="cls-18">
-    <text class="cls-11" transform="translate(236.04 103.28)"><tspan x="0" y="0">L</tspan></text>
-    <text class="cls-10" transform="translate(244.5 103.28)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-15" transform="translate(252.19 103.28)"><tspan x="0" y="0">u</tspan></text>
-    <text class="cls-15" transform="translate(260.56 103.28)"><tspan class="cls-47" x="0" y="0">n</tspan><tspan x="8.34" y="0">c</tspan></text>
-    <text class="cls-15" transform="translate(277.32 103.28)"><tspan x="0" y="0">h</tspan></text>
-    <text class="cls-15" transform="translate(286.02 103.28)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-15" transform="translate(289.65 103.28)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-15" transform="translate(296.46 103.28)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-9" transform="translate(299.91 103.28)"><tspan x="0" y="0">t</tspan></text>
-    <text class="cls-15" transform="translate(305.4 103.28)"><tspan x="0" y="0">e </tspan></text>
-    <text class="cls-15" transform="translate(318.22 103.28)"><tspan x="0" y="0">u</tspan></text>
-    <text class="cls-15" transform="translate(326.55 103.28)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-15" transform="translate(333.67 103.28)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-15" transform="translate(342.13 103.28)"><tspan x="0" y="0">d</tspan></text>
+  <g class="st3">
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(236 103.3)"><tspan x="0" y="0">L</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(244.5 103.3)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(252.2 103.3)"><tspan x="0" y="0">u</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(260.6 103.3)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+      <g class="st3">
+        <text class="st0" transform="translate(268.9 103.3)"><tspan x="0" y="0">c</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(277.3 103.3)"><tspan x="0" y="0">h</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(289.6 103.3)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(296.5 103.3)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(299.9 103.3)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(305.4 103.3)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(318.2 103.3)"><tspan x="0" y="0">u</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(326.5 103.3)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(333.7 103.3)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st0" transform="translate(342.1 103.3)"><tspan x="0" y="0">d</tspan></text>
+      </g>
+    </g>
   </g>
-  <g class="cls-18">
-    <text class="cls-19" transform="translate(33.56 166.55)"><tspan x="0" y="0">S</tspan></text>
-    <text class="cls-8" transform="translate(40.64 166.55)"><tspan x="0" y="0">p</tspan></text>
-    <text class="cls-16" transform="translate(47.62 166.55)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-8" transform="translate(53.54 166.55)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-8" transform="translate(56.7 166.55)"><tspan x="0" y="0">n</tspan></text>
+  <g class="st3">
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(33.6 166.5)"><tspan x="0" y="0">S</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(40.6 166.5)"><tspan x="0" y="0">p</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(47.6 166.5)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(53.5 166.5)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(56.7 166.5)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
   </g>
-  <g class="cls-18">
-    <text class="cls-8" transform="translate(36.74 211.1)"><tspan x="0" y="0">I</tspan></text>
-    <text class="cls-19" transform="translate(39.49 211.1)"><tspan x="0" y="0">t</tspan></text>
-    <text class="cls-16" transform="translate(44.07 211.1)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-8" transform="translate(50.34 211.1)"><tspan x="0" y="0">l</tspan></text>
-    <text class="cls-17" transform="translate(53.18 211.1)"><tspan x="0" y="0">y</tspan></text>
+  <g class="st3">
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(36.7 211.1)"><tspan x="0" y="0">I</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(39.5 211.1)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(44.1 211.1)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(50.3 211.1)"><tspan x="0" y="0">l</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(53.2 211.1)"><tspan x="0" y="0">y</tspan></text>
+      </g>
+    </g>
   </g>
-  <g class="cls-18">
-    <text class="cls-20" transform="translate(19.1 242.2)"><tspan x="0" y="0">C</tspan></text>
-    <text class="cls-8" transform="translate(27.51 242.2)"><tspan class="cls-59" x="0" y="0">a</tspan><tspan x="6.28" y="0">n</tspan></text>
-    <text class="cls-16" transform="translate(40.51 242.2)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-8" transform="translate(46.65 242.2)"><tspan x="0" y="0">d</tspan></text>
-    <text class="cls-16" transform="translate(53.84 242.2)"><tspan x="0" y="0">a</tspan></text>
+  <g class="st3">
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(19.1 242.2)"><tspan x="0" y="0">C</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(27.5 242.2)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+      <g class="st3">
+        <text class="st2" transform="translate(33.8 242.2)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(40.5 242.2)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(46.6 242.2)"><tspan x="0" y="0">d</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(53.8 242.2)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
   </g>
-  <g class="cls-18">
-    <text class="cls-8" transform="translate(27.34 274.4)"><tspan x="0" y="0">J</tspan></text>
-    <text class="cls-16" transform="translate(33.7 274.4)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-8" transform="translate(39.98 274.4)"><tspan x="0" y="0">p</tspan></text>
-    <text class="cls-16" transform="translate(46.96 274.4)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-8" transform="translate(53.24 274.4)"><tspan x="0" y="0">n</tspan></text>
+  <g class="st3">
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(27.3 274.4)"><tspan x="0" y="0">J</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(33.7 274.4)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(40 274.4)"><tspan x="0" y="0">p</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(47 274.4)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(53.2 274.4)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
   </g>
-  <g class="cls-18">
-    <text class="cls-8" transform="translate(44.97 331.75)"><tspan x="0" y="0">U</tspan></text>
-    <text class="cls-8" transform="translate(53.44 331.75)"><tspan x="0" y="0">K</tspan></text>
+  <g class="st3">
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(45 331.8)"><tspan x="0" y="0">U</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(53.4 331.8)"><tspan x="0" y="0">K</tspan></text>
+      </g>
+    </g>
   </g>
-  <g class="cls-18">
-    <text class="cls-8" transform="translate(44.71 415.64)"><tspan x="0" y="0">U</tspan></text>
-    <text class="cls-19" transform="translate(52.94 415.64)"><tspan x="0" y="0">S</tspan></text>
+  <g class="st3">
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(44.7 415.6)"><tspan x="0" y="0">U</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(52.9 415.6)"><tspan x="0" y="0">S</tspan></text>
+      </g>
+    </g>
   </g>
-  <g class="cls-18">
-    <text class="cls-8" transform="translate(14.23 190.39)"><tspan x="0" y="0">G</tspan></text>
-    <text class="cls-8" transform="translate(22.93 190.39)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-14" transform="translate(29.65 190.39)"><tspan x="0" y="0">r</tspan></text>
-    <text class="cls-8" transform="translate(34.05 190.39)"><tspan class="cls-59" x="0" y="0">m</tspan><tspan class="cls-50" x="10.04" y="0">a</tspan></text>
-    <text class="cls-8" transform="translate(50.37 190.39)"><tspan x="0" y="0">n</tspan></text>
-    <text class="cls-17" transform="translate(56.82 190.39)"><tspan x="0" y="0">y</tspan></text>
+  <g class="st3">
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(14.2 190.4)"><tspan x="0" y="0">G</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(22.9 190.4)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(29.6 190.4)"><tspan x="0" y="0">r</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(34.1 190.4)"><tspan x="0" y="0">m</tspan></text>
+      </g>
+      <g class="st3">
+        <text class="st2" transform="translate(44.1 190.4)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(50.4 190.4)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(56.8 190.4)"><tspan x="0" y="0">y</tspan></text>
+      </g>
+    </g>
   </g>
-  <g class="cls-18">
-    <text class="cls-8" transform="translate(20.28 134.39)"><tspan x="0" y="0">P</tspan></text>
-    <text class="cls-16" transform="translate(27.04 134.39)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-8" transform="translate(33.3 134.39)"><tspan x="0" y="0">k</tspan></text>
-    <text class="cls-8" transform="translate(39.53 134.39)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-8" transform="translate(42.38 134.39)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-19" transform="translate(47.69 134.39)"><tspan x="0" y="0">t</tspan></text>
-    <text class="cls-16" transform="translate(52.27 134.39)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-8" transform="translate(58.55 134.39)"><tspan x="0" y="0">n</tspan></text>
+  <g class="st3">
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(20.3 134.4)"><tspan x="0" y="0">P</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(27 134.4)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(33.3 134.4)"><tspan x="0" y="0">k</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(39.5 134.4)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(42.4 134.4)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(47.7 134.4)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(52.3 134.4)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(58.6 134.4)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
   </g>
-  <g class="cls-18">
-    <text class="cls-20" transform="translate(309.37 144.02)"><tspan x="0" y="0">C</tspan></text>
-    <text class="cls-8" transform="translate(317.77 144.02)"><tspan x="0" y="0">h</tspan></text>
-    <text class="cls-8" transform="translate(324.38 144.02)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-8" transform="translate(327.54 144.02)"><tspan x="0" y="0">n</tspan></text>
-    <text class="cls-16" transform="translate(334.26 144.02)"><tspan x="0" y="0">a</tspan></text>
+  <g class="st3">
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(309.4 144)"><tspan x="0" y="0">C</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(317.8 144)"><tspan x="0" y="0">h</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(324.4 144)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(327.5 144)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(334.3 144)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
   </g>
-  <g class="cls-18">
-    <text class="cls-8" transform="translate(309.37 211.02)"><tspan x="0" y="0">R</tspan></text>
-    <text class="cls-8" transform="translate(316.44 211.02)"><tspan x="0" y="0">u</tspan></text>
-    <text class="cls-8" transform="translate(323.1 211.02)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-8" transform="translate(328.53 211.02)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-8" transform="translate(333.98 211.02)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-16" transform="translate(337.03 211.02)"><tspan x="0" y="0">a</tspan></text>
+  <g class="st3">
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(309.4 211)"><tspan x="0" y="0">R</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(316.4 211)"><tspan x="0" y="0">u</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(323.1 211)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(328.5 211)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(334 211)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(337 211)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
   </g>
-  <g class="cls-18">
-    <text class="cls-8" transform="translate(310.37 345.02)"><tspan x="0" y="0">U</tspan></text>
-    <text class="cls-19" transform="translate(318.6 345.02)"><tspan x="0" y="0">S</tspan></text>
+  <g class="st3">
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(310.4 345)"><tspan x="0" y="0">U</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(318.6 345)"><tspan x="0" y="0">S</tspan></text>
+      </g>
+    </g>
   </g>
-  <g class="cls-18">
-    <text class="cls-8" transform="translate(19.5 148.69)"><tspan x="0" y="0">U</tspan></text>
-    <text class="cls-14" transform="translate(27.73 148.69)"><tspan x="0" y="0">r</tspan></text>
-    <text class="cls-8" transform="translate(32.11 148.69)"><tspan x="0" y="0">u</tspan></text>
-    <text class="cls-8" transform="translate(38.72 148.69)"><tspan x="0" y="0">g</tspan></text>
-    <text class="cls-8" transform="translate(45.16 148.69)"><tspan x="0" y="0">u</tspan></text>
-    <text class="cls-16" transform="translate(51.91 148.69)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-17" transform="translate(57.61 148.69)"><tspan x="0" y="0">y</tspan></text>
+  <g class="st3">
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(19.5 148.7)"><tspan x="0" y="0">U</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(27.7 148.7)"><tspan x="0" y="0">r</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(32.1 148.7)"><tspan x="0" y="0">u</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(38.7 148.7)"><tspan x="0" y="0">g</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(45.2 148.7)"><tspan x="0" y="0">u</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(51.9 148.7)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st2" transform="translate(57.6 148.7)"><tspan x="0" y="0">y</tspan></text>
+      </g>
+    </g>
   </g>
-  <path id="Pakistan_China" data-name="Pakistan China" class="cls-45" d="M75.07,134.65c111.38,0,111.38,15.91,222.77,15.91"/>
-  <g class="cls-18">
-    <text class="cls-33" transform="translate(0 461.54)"><tspan x="0" y="0">N</tspan></text>
-    <text class="cls-33" transform="translate(6.91 461.54)"><tspan x="0" y="0">o</tspan></text>
-    <text class="cls-22" transform="translate(12.33 461.54)"><tspan x="0" y="0">t</tspan></text>
-    <text class="cls-33" transform="translate(15.99 461.54)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-33" transform="translate(21.54 461.54)"><tspan x="0" y="0">: </tspan></text>
-    <text class="cls-13" transform="translate(26.64 461.54)"><tspan x="0" y="0">D</tspan></text>
-    <text class="cls-33" transform="translate(33.29 461.54)"><tspan x="0" y="0">o</tspan></text>
-    <text class="cls-33" transform="translate(39.08 461.54)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-33" transform="translate(44.61 461.54)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-33" transform="translate(49.64 461.54)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-33" transform="translate(52.35 461.54)"><tspan x="0" y="0">n</tspan></text>
-    <text class="cls-33" transform="translate(57.91 461.54)"><tspan x="0" y="0">o</tspan></text>
-    <text class="cls-22" transform="translate(63.33 461.54)"><tspan x="0" y="0">t</tspan></text>
-    <text class="cls-33" transform="translate(67.48 461.54)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-33" transform="translate(70.18 461.54)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-33" transform="translate(72.81 461.54)"><tspan class="cls-53" x="0" y="0">n</tspan><tspan x="5.56" y="0">c</tspan></text>
-    <text class="cls-33" transform="translate(83.98 461.54)"><tspan x="0" y="0">l</tspan></text>
-    <text class="cls-33" transform="translate(86.21 461.54)"><tspan x="0" y="0">u</tspan></text>
-    <text class="cls-33" transform="translate(91.8 461.54)"><tspan x="0" y="0">d</tspan></text>
-    <text class="cls-33" transform="translate(97.66 461.54)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-33" transform="translate(103.51 461.54)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-29" transform="translate(106.18 461.54)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-33" transform="translate(111.07 461.54)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-33" transform="translate(113.55 461.54)"><tspan x="0" y="0">c</tspan></text>
-    <text class="cls-33" transform="translate(119.25 461.54)"><tspan x="0" y="0">o</tspan></text>
-    <text class="cls-33" transform="translate(125.01 461.54)"><tspan x="0" y="0">u</tspan></text>
-    <text class="cls-33" transform="translate(130.59 461.54)"><tspan x="0" y="0">n</tspan></text>
-    <text class="cls-22" transform="translate(135.85 461.54)"><tspan x="0" y="0">t</tspan></text>
-    <text class="cls-28" transform="translate(139.77 461.54)"><tspan x="0" y="0">r</tspan></text>
-    <text class="cls-30" transform="translate(143.37 461.54)"><tspan x="0" y="0">y</tspan></text>
-    <text class="cls-33" transform="translate(148.87 461.54)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-33" transform="translate(151.57 461.54)"><tspan x="0" y="0">u</tspan></text>
-    <text class="cls-33" transform="translate(157.12 461.54)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-33" transform="translate(161.66 461.54)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-33" transform="translate(164.29 461.54)"><tspan x="0" y="0">n</tspan></text>
-    <text class="cls-33" transform="translate(169.77 461.54)"><tspan x="0" y="0">g </tspan></text>
-    <text class="cls-33" transform="translate(178.1 461.54)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-22" transform="translate(180.4 461.54)"><tspan x="0" y="0">t</tspan></text>
-    <text class="cls-33" transform="translate(184.09 461.54)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-33" transform="translate(189.12 461.54)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-33" transform="translate(191.6 461.54)"><tspan x="0" y="0">o</tspan></text>
-    <text class="cls-30" transform="translate(196.98 461.54)"><tspan x="0" y="0">w</tspan></text>
-    <text class="cls-33" transform="translate(204.51 461.54)"><tspan x="0" y="0">n </tspan></text>
-    <text class="cls-33" transform="translate(212.97 461.54)"><tspan x="0" y="0">l</tspan></text>
-    <text class="cls-29" transform="translate(215.34 461.54)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-33" transform="translate(220.47 461.54)"><tspan x="0" y="0">u</tspan></text>
-    <text class="cls-33" transform="translate(226.05 461.54)"><tspan class="cls-53" x="0" y="0">n</tspan><tspan x="5.56" y="0">c</tspan></text>
-    <text class="cls-33" transform="translate(237.22 461.54)"><tspan x="0" y="0">h</tspan></text>
-    <text class="cls-33" transform="translate(243.02 461.54)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-33" transform="translate(245.44 461.54)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-33" transform="translate(249.98 461.54)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-22" transform="translate(252.28 461.54)"><tspan x="0" y="0">t</tspan></text>
-    <text class="cls-33" transform="translate(255.94 461.54)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-33" transform="translate(261.47 461.54)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-33" transform="translate(266.5 461.54)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-23" transform="translate(268.9 461.54)"><tspan x="0" y="0">f</tspan></text>
-    <text class="cls-33" transform="translate(272.14 461.54)"><tspan x="0" y="0">o</tspan></text>
-    <text class="cls-28" transform="translate(277.89 461.54)"><tspan x="0" y="0">r</tspan></text>
-    <text class="cls-33" transform="translate(281.45 461.54)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-29" transform="translate(284.12 461.54)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-33" transform="translate(289.01 461.54)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-33" transform="translate(291.71 461.54)"><tspan x="0" y="0">l</tspan></text>
-    <text class="cls-29" transform="translate(294.08 461.54)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-33" transform="translate(299.21 461.54)"><tspan x="0" y="0">u</tspan></text>
-    <text class="cls-33" transform="translate(304.79 461.54)"><tspan class="cls-53" x="0" y="0">n</tspan><tspan x="5.56" y="0">c</tspan></text>
-    <text class="cls-33" transform="translate(315.96 461.54)"><tspan x="0" y="0">h</tspan></text>
-    <text class="cls-13" transform="translate(321.76 461.54)"><tspan x="0" y="0">,</tspan></text>
-    <text class="cls-33" transform="translate(324.06 461.54)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-33" transform="translate(326.54 461.54)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-33" transform="translate(331.9 461.54)"><tspan x="0" y="0">g</tspan></text>
-    <text class="cls-13" transform="translate(337.33 461.54)"><tspan x="0" y="0">.</tspan></text>
-    <text class="cls-33" transform="translate(339.63 461.54)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-33" transform="translate(342.33 461.54)"><tspan x="0" y="0">U</tspan></text>
-    <text class="cls-23" transform="translate(349.19 461.54)"><tspan x="0" y="0">S</tspan></text>
-    <text class="cls-33" transform="translate(355.12 461.54)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-33" transform="translate(0 473.54)"><tspan x="0" y="0">u</tspan></text>
-    <text class="cls-33" transform="translate(5.55 473.54)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-33" transform="translate(10.09 473.54)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-33" transform="translate(12.72 473.54)"><tspan x="0" y="0">n</tspan></text>
-    <text class="cls-33" transform="translate(18.2 473.54)"><tspan x="0" y="0">g </tspan></text>
-    <text class="cls-33" transform="translate(26.53 473.54)"><tspan x="0" y="0">l</tspan></text>
-    <text class="cls-29" transform="translate(28.9 473.54)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-33" transform="translate(34.03 473.54)"><tspan x="0" y="0">u</tspan></text>
-    <text class="cls-33" transform="translate(39.61 473.54)"><tspan class="cls-53" x="0" y="0">n</tspan><tspan x="5.56" y="0">c</tspan></text>
-    <text class="cls-33" transform="translate(50.78 473.54)"><tspan x="0" y="0">h</tspan></text>
-    <text class="cls-33" transform="translate(56.58 473.54)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-33" transform="translate(59 473.54)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-33" transform="translate(63.54 473.54)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-22" transform="translate(65.84 473.54)"><tspan x="0" y="0">t</tspan></text>
-    <text class="cls-33" transform="translate(69.5 473.54)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-33" transform="translate(75.03 473.54)"><tspan x="0" y="0">s </tspan></text>
-    <text class="cls-33" transform="translate(82.76 473.54)"><tspan x="0" y="0">i</tspan></text>
-    <text class="cls-33" transform="translate(85.39 473.54)"><tspan x="0" y="0">n</tspan></text>
-    <text class="cls-33" transform="translate(91.15 473.54)"><tspan class="cls-62" x="0" y="0"> </tspan><tspan class="cls-51" x="2.29" y="0">t</tspan></text>
-    <text class="cls-33" transform="translate(97.38 473.54)"><tspan x="0" y="0">h</tspan></text>
-    <text class="cls-33" transform="translate(102.98 473.54)"><tspan x="0" y="0">e </tspan></text>
-    <text class="cls-33" transform="translate(111.53 473.54)"><tspan x="0" y="0">U</tspan></text>
-    <text class="cls-23" transform="translate(118.39 473.54)"><tspan x="0" y="0">S</tspan></text>
-    <text class="cls-13" transform="translate(124.36 473.54)"><tspan x="0" y="0">.</tspan></text>
-    <text class="cls-23" transform="translate(0 485.54)"><tspan x="0" y="0">S</tspan></text>
-    <text class="cls-33" transform="translate(5.86 485.54)"><tspan x="0" y="0">o</tspan></text>
-    <text class="cls-33" transform="translate(11.62 485.54)"><tspan x="0" y="0">u</tspan></text>
-    <text class="cls-28" transform="translate(17.2 485.54)"><tspan x="0" y="0">r</tspan></text>
-    <text class="cls-33" transform="translate(20.56 485.54)"><tspan x="0" y="0">c</tspan></text>
-    <text class="cls-33" transform="translate(26.26 485.54)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-33" transform="translate(31.81 485.54)"><tspan x="0" y="0">:</tspan></text>
-    <text class="cls-33" transform="translate(34.21 485.54)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-33" transform="translate(36.21 485.54)"><tspan x="0" y="0">J</tspan></text>
-    <text class="cls-33" transform="translate(41.59 485.54)"><tspan x="0" y="0">o</tspan></text>
-    <text class="cls-33" transform="translate(47.34 485.54)"><tspan x="0" y="0">n</tspan></text>
-    <text class="cls-29" transform="translate(52.94 485.54)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-22" transform="translate(57.64 485.54)"><tspan x="0" y="0">t</tspan></text>
-    <text class="cls-33" transform="translate(61.58 485.54)"><tspan class="cls-60" x="0" y="0">h</tspan><tspan class="cls-48" x="5.64" y="0">a</tspan></text>
-    <text class="cls-33" transform="translate(72.45 485.54)"><tspan x="0" y="0">n </tspan></text>
-    <text class="cls-33" transform="translate(80.91 485.54)"><tspan x="0" y="0">M</tspan></text>
-    <text class="cls-33" transform="translate(89.1 485.54)"><tspan x="0" y="0">c</tspan></text>
-    <text class="cls-13" transform="translate(94.91 485.54)"><tspan x="0" y="0">D</tspan></text>
-    <text class="cls-33" transform="translate(101.56 485.54)"><tspan x="0" y="0">o</tspan></text>
-    <text class="cls-30" transform="translate(106.94 485.54)"><tspan x="0" y="0">w</tspan></text>
-    <text class="cls-33" transform="translate(114.23 485.54)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-33" transform="translate(119.84 485.54)"><tspan x="0" y="0">l</tspan></text>
-    <text class="cls-33" transform="translate(122.05 485.54)"><tspan x="0" y="0">l</tspan></text>
-    <text class="cls-27" transform="translate(124.39 485.54)"><tspan x="0" y="0">’</tspan></text>
-    <text class="cls-33" transform="translate(125.98 485.54)"><tspan x="0" y="0">s</tspan></text>
-    <text class="cls-33" transform="translate(131.01 485.54)"><tspan x="0" y="0"> </tspan></text>
-    <text class="cls-23" transform="translate(133.52 485.54)"><tspan x="0" y="0">S</tspan></text>
-    <text class="cls-33" transform="translate(139.42 485.54)"><tspan x="0" y="0">p</tspan></text>
-    <text class="cls-29" transform="translate(145.24 485.54)"><tspan x="0" y="0">a</tspan></text>
-    <text class="cls-33" transform="translate(150.36 485.54)"><tspan x="0" y="0">c</tspan></text>
-    <text class="cls-33" transform="translate(156.06 485.54)"><tspan x="0" y="0">e </tspan></text>
-    <text class="cls-33" transform="translate(164.61 485.54)"><tspan x="0" y="0">R</tspan></text>
-    <text class="cls-33" transform="translate(170.38 485.54)"><tspan x="0" y="0">e</tspan></text>
-    <text class="cls-33" transform="translate(175.98 485.54)"><tspan x="0" y="0">p</tspan></text>
-    <text class="cls-33" transform="translate(181.84 485.54)"><tspan class="cls-57" x="0" y="0">o</tspan><tspan class="cls-49" x="5.75" y="0">r</tspan></text>
-    <text class="cls-22" transform="translate(191.2 485.54)"><tspan x="0" y="0">t</tspan></text>
+  <path id="Pakistan_China" class="st17" d="M75.1,134.6c111.4,0,111.4,15.9,222.8,15.9"/>
+  <g class="st3">
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(0 461.5)"><tspan x="0" y="0">N</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(6.9 461.5)"><tspan x="0" y="0">o</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(12.3 461.5)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(16 461.5)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(21.5 461.5)"><tspan x="0" y="0">:</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(26.6 461.5)"><tspan x="0" y="0">D</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(33.3 461.5)"><tspan x="0" y="0">o</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(39.1 461.5)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(44.6 461.5)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(52.4 461.5)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(57.9 461.5)"><tspan x="0" y="0">o</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(63.3 461.5)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(70.2 461.5)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(72.8 461.5)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+      <g class="st3">
+        <text class="st5" transform="translate(78.4 461.5)"><tspan x="0" y="0">c</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(84 461.5)"><tspan x="0" y="0">l</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(86.2 461.5)"><tspan x="0" y="0">u</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(91.8 461.5)"><tspan x="0" y="0">d</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(97.7 461.5)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(106.2 461.5)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(113.5 461.5)"><tspan x="0" y="0">c</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(119.2 461.5)"><tspan x="0" y="0">o</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(125 461.5)"><tspan x="0" y="0">u</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(130.6 461.5)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(135.9 461.5)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(139.8 461.5)"><tspan x="0" y="0">r</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(143.4 461.5)"><tspan x="0" y="0">y</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(151.6 461.5)"><tspan x="0" y="0">u</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(157.1 461.5)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(161.7 461.5)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(164.3 461.5)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(169.8 461.5)"><tspan x="0" y="0">g</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(178.1 461.5)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(180.4 461.5)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(184.1 461.5)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(191.6 461.5)"><tspan x="0" y="0">o</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(197 461.5)"><tspan x="0" y="0">w</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(204.5 461.5)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(213 461.5)"><tspan x="0" y="0">l</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(215.3 461.5)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(220.5 461.5)"><tspan x="0" y="0">u</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(226 461.5)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+      <g class="st3">
+        <text class="st5" transform="translate(231.6 461.5)"><tspan x="0" y="0">c</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(237.2 461.5)"><tspan x="0" y="0">h</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(245.4 461.5)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(250 461.5)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(252.3 461.5)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(255.9 461.5)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(261.5 461.5)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(268.9 461.5)"><tspan x="0" y="0">f</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(272.1 461.5)"><tspan x="0" y="0">o</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(277.9 461.5)"><tspan x="0" y="0">r</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(284.1 461.5)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(291.7 461.5)"><tspan x="0" y="0">l</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(294.1 461.5)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(299.2 461.5)"><tspan x="0" y="0">u</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(304.8 461.5)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+      <g class="st3">
+        <text class="st5" transform="translate(310.4 461.5)"><tspan x="0" y="0">c</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(316 461.5)"><tspan x="0" y="0">h</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(321.8 461.5)"><tspan x="0" y="0">,</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(326.5 461.5)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(331.9 461.5)"><tspan x="0" y="0">g</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(337.3 461.5)"><tspan x="0" y="0">.</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(342.3 461.5)"><tspan x="0" y="0">U</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(349.2 461.5)"><tspan x="0" y="0">S</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(0 473.5)"><tspan x="0" y="0">u</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(5.6 473.5)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(10.1 473.5)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(12.7 473.5)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(18.2 473.5)"><tspan x="0" y="0">g</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(26.5 473.5)"><tspan x="0" y="0">l</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(28.9 473.5)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(34 473.5)"><tspan x="0" y="0">u</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(39.6 473.5)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+      <g class="st3">
+        <text class="st5" transform="translate(45.2 473.5)"><tspan x="0" y="0">c</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(50.8 473.5)"><tspan x="0" y="0">h</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(59 473.5)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(63.5 473.5)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(65.8 473.5)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(69.5 473.5)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(75 473.5)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(82.8 473.5)"><tspan x="0" y="0">i</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(85.4 473.5)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(93.4 473.5)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(97.4 473.5)"><tspan x="0" y="0">h</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(103 473.5)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(111.5 473.5)"><tspan x="0" y="0">U</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(118.4 473.5)"><tspan x="0" y="0">S</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(124.4 473.5)"><tspan x="0" y="0">.</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(0 485.5)"><tspan x="0" y="0">S</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(5.9 485.5)"><tspan x="0" y="0">o</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(11.6 485.5)"><tspan x="0" y="0">u</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(17.2 485.5)"><tspan x="0" y="0">r</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(20.6 485.5)"><tspan x="0" y="0">c</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(26.3 485.5)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(31.8 485.5)"><tspan x="0" y="0">:</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(36.2 485.5)"><tspan x="0" y="0">J</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(41.6 485.5)"><tspan x="0" y="0">o</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(47.3 485.5)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(52.9 485.5)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(57.6 485.5)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(61.6 485.5)"><tspan x="0" y="0">h</tspan></text>
+      </g>
+      <g class="st3">
+        <text class="st5" transform="translate(67.2 485.5)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(72.4 485.5)"><tspan x="0" y="0">n</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(80.9 485.5)"><tspan x="0" y="0">M</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(89.1 485.5)"><tspan x="0" y="0">c</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(94.9 485.5)"><tspan x="0" y="0">D</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(101.6 485.5)"><tspan x="0" y="0">o</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(106.9 485.5)"><tspan x="0" y="0">w</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(114.2 485.5)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(119.8 485.5)"><tspan x="0" y="0">l</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(122 485.5)"><tspan x="0" y="0">l</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(124.4 485.5)"><tspan x="0" y="0">’</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(126 485.5)"><tspan x="0" y="0">s</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(133.5 485.5)"><tspan x="0" y="0">S</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(139.4 485.5)"><tspan x="0" y="0">p</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(145.2 485.5)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(150.4 485.5)"><tspan x="0" y="0">c</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(156.1 485.5)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(164.6 485.5)"><tspan x="0" y="0">R</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(170.4 485.5)"><tspan x="0" y="0">e</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(176 485.5)"><tspan x="0" y="0">p</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(181.8 485.5)"><tspan x="0" y="0">o</tspan></text>
+      </g>
+      <g class="st3">
+        <text class="st5" transform="translate(187.6 485.5)"><tspan x="0" y="0">r</tspan></text>
+      </g>
+    </g>
+    <g class="st3">
+      <g class="st3">
+        <text class="st5" transform="translate(191.2 485.5)"><tspan x="0" y="0">t</tspan></text>
+      </g>
+    </g>
   </g>
 </svg>
