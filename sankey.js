@@ -22,17 +22,11 @@ function addInteractivity(artboardId, svgFileName) {
 
     console.log(`SVG inserted into ${artboardId}`, svg.node());
 
-    // Add CSS for dimming effect
+    // Add CSS for smooth opacity transition
     const style = document.createElement('style');
     style.textContent = `
-      #${artboardId} path {
+      #${artboardId} path.flow {
         transition: opacity 0.2s ease;
-      }
-      #${artboardId}.dimmed path {
-        opacity: 0.2 !important;
-      }
-      #${artboardId} path.highlighted {
-        opacity: 1 !important;
       }
     `;
     document.head.appendChild(style);
@@ -60,39 +54,38 @@ function addInteractivity(artboardId, svgFileName) {
           matchCount++;
           console.log(`✓ Matched link: ${encodedLinkId}`);
 
+          link.classed("flow", true).style("opacity", 0.7);
+
           link
             .style("cursor", "pointer")
             .style("pointer-events", "all")
             .attr("data-interactive", "true")
             .on("mouseenter", function (event) {
-              // Add dimmed class to artboard
-              artboard.classList.add('dimmed');
-              
-              // Add highlighted class to this element
-              this.classList.add('highlighted');
+  // Dim all flows
+  svg.selectAll("path.flow").style("opacity", 0.5);
 
-              tooltip
-                .style("opacity", 1)
-                .html(`<strong>${d.SatState} → ${d.LVState}</strong><br>${d.Count} launches`)
-                .style("left", (event.pageX + 10) + "px")
-                .style("top", (event.pageY - 20) + "px");
-            })
+  // Highlight the hovered flow
+  d3.select(this).style("opacity", 1);
+
+  tooltip
+    .style("opacity", 1)
+    .html(`<strong>${d.SatState} → ${d.LVState}</strong><br>${d.Count} launches`)
+    .style("left", (event.pageX + 10) + "px")
+    .style("top", (event.pageY - 20) + "px");
+})
+
             .on("mouseleave", function () {
-              // Remove dimmed class from artboard
-              artboard.classList.remove('dimmed');
-              
-              // Remove highlighted class from this element
-              this.classList.remove('highlighted');
-
+              svg.selectAll("path.flow").style("opacity", 0.7);
               tooltip.style("opacity", 0);
             })
             .on("touchstart", function (event) {
               event.preventDefault();
               const touch = event.touches[0];
-              
-              artboard.classList.add('dimmed');
-              this.classList.add('highlighted');
-              
+
+              svg.selectAll("path.flow").style("opacity", function () {
+                return this === link.node() ? 1 : 0.7;
+              });
+
               tooltip
                 .style("opacity", 1)
                 .html(`<strong>${d.SatState} → ${d.LVState}</strong><br>${d.Count} launches`)
@@ -100,9 +93,7 @@ function addInteractivity(artboardId, svgFileName) {
                 .style("top", (touch.pageY - 20) + "px");
             })
             .on("touchend", function () {
-              artboard.classList.remove('dimmed');
-              this.classList.remove('highlighted');
-              
+              svg.selectAll("path.flow").style("opacity", 0.7);
               tooltip.style("opacity", 0);
             });
         } else {
@@ -158,5 +149,5 @@ function addInteractivity(artboardId, svgFileName) {
 }
 
 // make it interactive
-addInteractivity('g-template-full', 'viz-full.svg');
-addInteractivity('g-template-mobile', 'viz-mobile.svg');
+addInteractivity('g-template-full', 'assets/viz-full.svg');
+addInteractivity('g-template-mobile', 'assets/viz-mobile.svg');
